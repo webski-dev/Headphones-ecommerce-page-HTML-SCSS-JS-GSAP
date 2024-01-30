@@ -8,7 +8,7 @@ https://webski-dev.github.io/Headphones-ecommerce-page/
 
 ## Stack 
 
-HTML/SCSS/JS
+HTML/SCSS/vanlla JS
 
 ### LIBRARIES
 
