@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Headphones Ecommerce page - HTML/SCSS/JS + gSap</title>
+  <link rel="stylesheet" href="css/css.css" />
+</head>
+
+<body>
+
+
+  <header>
+    <div id="mobileMenu" class="mobile-menu">
+      <img onclick="closeMenu()" id="closeMobileMenu" src="assets/Close-icon.png" alt="">
+      <ul class="mobile-menu-list">
+        <li><a class="mobile-menu-link" href="#">+ SHOP</a></li>
+        <li><a class="mobile-menu-link" href="#">+ MY ACCOUNT</a></li>
+        <li><a class="mobile-menu-link" href="#">+ OFFERS</a></li>
+        <li><a class="mobile-menu-link" href="#">+ ABOUT US</a></li>
+        <li><a class="mobile-menu-link" href="#">+ CONTACT</a></li>
+
+      </ul>
+
+
+    </div>
+    <div class="container-header">
+
+      <nav>
+        <div class="navigation-bar">
+          <div class="left-side-nav">
+            <img class="menu-mobile-img" onclick="myMenu()" src="assets/menu.png" alt="">
+            <img class="logo-header"  src="assets/logo-footer.png" alt="">
+          </div>
+
+          <div class="right-side-nav">
+
+
+            <ul class="desktop-menu">
+
+              <li><a class="desktop-menu-link" href="#">+ SHOP</a></li>
+              <li><a class="desktop-menu-link" href="#">+ MY ACCOUNT</a></li>
+              <li><a class="desktop-menu-link" href="#">+ OFFERS</a></li>
+              <li><a class="desktop-menu-link" href="#">+ ABOUT US</a></li>
+              <li><a class="desktop-menu-link" href="#">+ CONTACT</a></li>
+
+
+            </ul>
+            <img src="assets/icons8-search-48.png" alt="" />
+            <img src="assets/icons8-cart-48.png" alt="" />
+            <img src="assets/icons8-male-user-48.png" alt="" />
+          </div>
+        </div>
+      </nav>
+
+      <hero>
+        <div class="container-hero">
+          <div class="stats-hero">
+            <div class="left-side-stats">
+              <div class="stats-wrapper">
+                <div class="count"></div>
+                <p class="p-stats">K</p>
+              </div>
+              <span class="header-span">Happy Buyers</span>
+              <br />
+              <br />
+
+              <p class="p-stats">4.9</p>
+              <span class="header-span">Customer Ratings</span>
+            </div>
+            <div class="right-side-stats">
+              <span class="header-span">Flagship Open-Black<br />Headphone</span>
+            </div>
+          </div>
+          <h1 class="h1-header">Headphones</h1>
+
+          <p class="p-header">
+            Meet your new headphone best<br />
+            friend before they run out.
+          </p>
+          <img class="headphones-img" src="assets/headphones_main.png" alt="" />
+
+          <button class="buy-now-button">Buy Now</button>
+        </div>
+      </hero>
+    </div>
+  </header>
+
+  <main>
+    <div class="new-launches-header">
+      <h5>NEW LAUNCHES</h5>
+      <br>
+      <h3>Fresh off the boat</h3>
+      <br />
+    </div>
+    <div class="new-launches-container">
+
+      <div class="new-product-wrapper">
+
+
+        <div class="new-product-1">
+          <img src="assets/bose.png" alt="" />
+
+
+        </div>
+
+        <p class="product-name-small">BOSE AUDIO - FRESH AND JUICY</span>
+        <p class="product-price-small">$ 179.99<span class="old-price">$ 199.99</span>
+      </div>
+
+
+
+
+      <div class="new-product-wrapper">
+        <div class="new-product-2"><img src="assets/bos2.png" alt=""></div>
+        <p class="product-name-small">BOSE AUDIO - FRESH AND JUICY</span>
+        <p class="product-price-small">$ 179.99<span class="old-price">$ 199.99</span>
+      </div>
+      <div class="new-product-wrapper">
+        <div class="new-product-3"><img src="assets/ear.png" alt=""></div>
+        <p class="product-name-small">BOSE AUDIO - FRESH AND JUICY</span>
+        <p class="product-price-small">$ 179.99<span class="old-price">$ 199.99</span>
+      </div>
+    </div>
+    <br>
+    <br>
+
+
+    <div class="feature-1-container">
+
+      <div class="feature-1-wrapper">
+        <div class="feature-1-text">
+
+          <h1>Immerse yourself in<br>your music</h1>
+          <br>
+          <p class="feature-1-text">Headphones are a necessity without a doubt. As millennial culture
+            says, "we can leave the house without pur wallets but not without Headphones".
+          </p>
+          <br>
+          <button class="shop-now-button">Shop now</button>
+        </div>
+
+        <div class="feature-1-image"><img src="assets/PngItem_2314151.png" alt=""></div>
+
+      </div>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <div class="bestsellers-header">
+      <h5>EARPHONES</h5>
+      <br>
+      <h3>Small and tasty</h3>
+    </div>
+    <div class="bestsellers-container">
+
+
+      <div class="new-product-wrapper">
+        <div class="bestseller-1">
+          <img src="assets/small2.png" alt="">
+        </div>
+        <p class="product-name-small">BLACK BEATS - ELEGANT& SMOOTH</span></p>
+        <p class="product-price-small">$ 179.99</p>
+      </div>
+
+      <div class="new-product-wrapper">
+        <div class="bestseller-2">
+          <img src="assets/small1.png" alt="">
+        </div>
+        <p class="product-name-small">RED BEATS - ACTIVE ENERGY</span></p>
+        <p class="product-price-small">$ 179.99</p>
+      </div>
+
+      <div class="new-product-wrapper">
+        <div class="bestseller-3">
+          <img src="assets/small3-removebg-preview.png" alt="">
+        </div>
+        <p class="product-name-small">WHITE BEATS - CALMED AND FOCUSED</span></p>
+        <p class="product-price-small">$ 179.99</p>
+      </div>
+
+
+
+
+    </div>
+    <br>
+    <br>
+    <div class="feature-2-container">
+
+      <div class="feature-2-wrapper">
+        <div class="feature-2-text">
+
+          <h1>Resposnive noise<br>blocking</h1>
+          <br>
+          <p class="feature-1-text">Headphones are a necessity without a doubt. As the millennial culture
+            says, "we can leave the house without pur wallets but not without Headphones".
+          </p>
+          <br>
+          <button class="shop-now-button">Shop now</button>
+          <br>
+
+        </div>
+
+        <div class="feature-2-image"><img src="assets/photo-6.png" alt=""></div>
+
+      </div>
+    </div>
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="articles-header">
+      <h5>ARTICLES</h5>
+      <br>
+      <h3>See what's trending</h3>
+
+    </div>
+
+
+    <div class="articles-container">
+
+      <div class="slider-container">
+        <div class="slide fade">
+          <img class="slide-image" src="assets/headphone-commute-hearing-loss-header-1024x575.webp" alt="">
+          <div class="slide-content">
+            <h3 class="slide-title">title 1</h3>
+            <p class="slide-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
+            </p>
+            <p class="slide-desc">
+              Read more >>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="slide fade">
+          <img class="slide-image" src="assets/photo-2.avif" alt="">
+          <div class="slide-content">
+            <h3 class="slide-title">title 2</h3>
+            <p class="slide-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
+            </p>
+            <p class="slide-desc">
+              Read more >>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="slide fade">
+          <img class="slide-image" src="assets/photo-3.jpg" alt="">
+          <div class="slide-content">
+            <h3 class="slide-title">title 3</h3>
+            <p class="slide-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
+            </p>
+            <p class="slide-desc">
+              Read more >>
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Next and previous buttons -->
+        <div class="slider-nav">
+          <a class="slider-nav-btn" onclick="plusSlides(-1)">
+            <ion-icon name="caret-back-outline"></ion-icon>
+          </a>
+          <a class="slider-nav-btn" onclick="plusSlides(1)">
+            <ion-icon name="caret-forward-outline"></ion-icon>
+          </a>
+        </div>
+
+        <!-- The dots/circles -->
+
+      </div>
+
+
+    </div>
+
+    <div class="articles-gallery-container">
+
+
+      <div class="main-image-articles-gallery">
+
+
+        <img src="assets/photo-4.jpg" alt="">
+
+        <p class="text-on-hover">READ MORE</p>
+
+
+      </div>
+
+      <div class="side-images-articles-gallery">
+        <img src="assets/picture-1.png" alt="">
+
+
+
+        <img src="assets/picture-2.png" alt="">
+
+      </div>
+
+
+    </div>
+    <br>
+    <div class="newsletter-header">
+      <h5>NEWSLETTER</h5>
+      <br>
+      <h3>Want to hear from us?</h3>
+      <br />
+    </div>
+    <div class="newsletter-container">
+
+      <div class="newsletter-wrapper">
+
+
+        <form>
+
+          <input type="text" id="inputName" name="name" value="Enter your name ...">
+          <input type="text" id="inputEmail" name="email" value=".. and email">
+        </form>
+
+
+      </div>
+      <button class="newsletter-button">Submit</button>
+
+    </div>
+
+
+
+  </main>
+  <br>
+  <br>
+  <footer>
+
+    <div class="footer-container">
+
+      <div class="footer-social-media">
+
+        <span class="footer-separator"> <img class="logo-footer-img" src="assets/logo-footer.png" alt=""></span>
+
+
+        <span class="footer-separator">
+
+          <div class="line"></div>
+          <img class="social-icon-img" src="assets/fb.png" alt=""><br>
+          <img class="social-icon-img" src="assets/twtter.png" alt="">
+        </span>
+
+
+      </div>
+
+      <div class="footer-links-wrapper">
+        <div class="footer-products">
+          <p class="footer-category">PRODUCTS</p>
+          <ul class="footer-products-list">
+
+            <li>In-ears</li>
+            <li>Headphones</li>
+            <li>Speaker</li>
+            <li>Studio</li>
+            <li>AMPS</li>
+            <li>DAC</li>
+            <li>Laptop</li>
+            <li>Desktop</li>
+            <li>Earbuds</li>
+            <li>Earphone</li>
+            <li>Audio player</li>
+
+          </ul>
+
+        </div>
+        <div class="footer-featured">
+          <p class="footer-category">FEATURED</p>
+
+          <ul class="footer-featured-list">
+
+            <li>In-ears</li>
+            <li>Headphones</li>
+            <li>Speaker</li>
+
+
+          </ul>
+
+        </div>
+        <div class="footer-contact">
+          <p class="footer-category">CONTACT</p>
+
+
+          <ul class="footer-contact-list">
+
+            <li>+ 1999 88-76-54</li>
+            <li>hello@headphones.com</li>
+            <br>
+            <li><a href="@">Contact me</a></li>
+
+
+          </ul>
+        </div>
+        <div class="footer-bottom-text">
+          <p class="footer-bottom">2972 Westheimer Rd. Santa Ana, Illinois 85486</p><span class="footer-copyright">
+            <p class="footer-bottom">2023 - Copyright</p>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <script src="js/openMenu.js"></script>
+  <script src="js/closeMenu.js"></script>
+  <script src="js/scrollLock.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/gsap.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+</body>
+
+</html>
