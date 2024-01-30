@@ -1,14 +1,22 @@
-# Headphones - ecommerce page 
+# HEADPHONES ECOMMERCE PAGE
 
 Case study was to write elegant and bright page for headphones ecommerce store.
+
+I have used html, scss, vanilla js (tried to kept it simple) and gsap library.
+
+Page could be easily modified and pushed into wp theme.
+
+Fully resposnive 320 - 1440px +
 
 Live link:
 
 https://webski-dev.github.io/Headphones-ecommerce-page/
 
-## Stack 
+
+## STACK 
 
 HTML/SCSS/JS
+
 
 ### LIBRARIES
 
@@ -16,7 +24,8 @@ gSap library
 ionicons
 towfique slider library
 
-### Layout
+
+### LAYOUT
 
 The designs were created to the following widths:
 
@@ -24,17 +33,14 @@ The designs were created to the following widths:
 - Desktop: 1440px
 
 
-### Demo
+### DEMO
 
 Live link:
 
 https://webski-dev.github.io/Headphones-ecommerce-page/
 
 
-
-
-
-### Features
+### FEATURES
 
 - Mobile/ Desktop menu (JS toggle)
 - Fullscreen/mobile mode (mediaQuery)
@@ -45,7 +51,7 @@ https://webski-dev.github.io/Headphones-ecommerce-page/
 
 
 
-### Screenshots
+### SCREENSHOTS
 
 Desktop view :
 
