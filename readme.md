@@ -40,6 +40,7 @@ https://webski-dev.github.io/Headphones-ecommerce-page/
 - Fullscreen/mobile mode (mediaQuery)
 - Responsive slider
 - gSap onscroll trigger with opacity effect
+- Hover state on main button (could be apply to others but I was too lazy ;) 
 - Cross platform
 - keyframes animations
 
