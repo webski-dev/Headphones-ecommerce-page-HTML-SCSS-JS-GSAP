@@ -452,7 +452,7 @@ header {
     animation: mobileAnim 2s ease 0s 1 normal forwards;
 
     #closeMobileMenu {
-      width: 2rem;
+      width: 1.5rem;
       position: absolute;
       top: 1rem;
       right: 1rem;
@@ -465,6 +465,16 @@ header {
       list-style-type: none;
       text-align: left;
       margin-left: -1.5rem;
+    }
+
+    .mobile-menu-logo {
+
+      filter: invert(100%);
+      -webkit-filter: invert(100%);
+
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
     }
   }
 

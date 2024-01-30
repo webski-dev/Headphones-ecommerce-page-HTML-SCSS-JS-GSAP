@@ -369,7 +369,7 @@ header .mobile-menu {
   animation: mobileAnim 2s ease 0s 1 normal forwards;
 }
 header .mobile-menu #closeMobileMenu {
-  width: 2rem;
+  width: 1.5rem;
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -381,6 +381,13 @@ header .mobile-menu .mobile-menu-list {
   list-style-type: none;
   text-align: left;
   margin-left: -1.5rem;
+}
+header .mobile-menu .mobile-menu-logo {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
 }
 header .active {
   display: flex;
