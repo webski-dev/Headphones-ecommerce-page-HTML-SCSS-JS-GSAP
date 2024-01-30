@@ -599,6 +599,8 @@ main {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+
+
   margin-top: 12rem;
 
   .new-launches-header,
@@ -612,7 +614,7 @@ main {
   .new-launches-container {
      transition: ease-in-out 1s;
     opacity: 0;
-    margin-top: 2rem;
+  
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -977,6 +979,8 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+
+    
 
     .newsletter-wrapper {
       display: flex;

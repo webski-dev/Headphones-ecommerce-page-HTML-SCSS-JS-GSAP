@@ -482,7 +482,6 @@ main .newsletter-header {
 main .new-launches-container {
   transition: ease-in-out 1s;
   opacity: 0;
-  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   width: 80%;
