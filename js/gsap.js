@@ -19,7 +19,7 @@ gsap.to(".new-launches-container", {
     start: "top center",
     end: "top center",
     scrub: true,
-    markers: true,
+    markers: false,
     id: "scrub",
   },
 });
