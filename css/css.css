@@ -956,22 +956,29 @@ footer .footer-bottom-text {
   h3 {
     font-size: 1.5rem;
   }
+  h5 {
+    font-size: 1rem;
+  }
   p.feature-1-text {
     font-size: 1rem;
   }
   .h1-header {
-    font-size: 3rem;
+    top: 15.5rem;
+    font-size: 2.8rem;
     font-weight: 300;
   }
   .p-header {
-    font-size: 0.7rem;
-    top: 21.5rem;
+    font-size: 0.8rem;
+    top: 20rem;
+  }
+  span.header-span {
+    font-size: 0.8rem;
   }
   .shop-now-button {
     margin-top: 1rem;
   }
   header hero .container-hero .headphones-img {
-    top: 4.5rem;
+    top: 4rem;
     scale: 68%;
   }
   main .feature-1-container,
