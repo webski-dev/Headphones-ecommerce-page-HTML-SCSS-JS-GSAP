@@ -330,6 +330,10 @@ span.old-price {
   text-decoration: line-through;
 }
 
+span.desktop-link-decor {
+  color: var(--green);
+}
+
 span.header-span {
   color: var(--white);
   font-size: var(--headerParagraph);
