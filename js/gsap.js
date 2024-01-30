@@ -17,9 +17,9 @@ gsap.to(".new-launches-container", {
   scrollTrigger: {
     trigger: ".new-launches-container",
     start: "top center",
-    end: "top 50px",
+    end: "top center",
     scrub: true,
-    markers: false,
+    markers: true,
     id: "scrub",
   },
 });
@@ -101,7 +101,7 @@ gsap.to(".articles-gallery-container", {
   scrollTrigger: {
     trigger: ".articles-gallery-container",
     start: "top 400px",
-    end: "top 600px",
+    end: "center 80px",
     scrub: true,
     markers: false,
     id: "scrub",
