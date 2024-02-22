@@ -10,7 +10,7 @@ Fully resposnive 320 - 1440px +
 
 Live link:
 
-https://webski-dev.github.io/Headphones-ecommerce-page/
+https://webski-dev.github.io/Headphones-ecommerce-page-HTML-SCSS-JS-GSAP
 
 
 ## STACK 
